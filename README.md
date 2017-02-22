@@ -1,6 +1,6 @@
 # ImageTextField
 
-A Designable Textfield For adding textfield leftview and rightview images in storyboard.
+A Designable Textfield For adding textfield leftview and rightview images in storyboard for swift 3.0 .
 
 Using ImageTextField you can set left and right imageview in storyboard with padding. At a single one image is shown, means if you enable isRightImage property it will show image on right else will show on left(Default is left). Also you can add Layer to TextField. If you add any color to Bottom Color it will add a layer in bottom layer and it's borderStyle will change. if you set it clear color it will change to  .roundedRect borderStyle.
 
