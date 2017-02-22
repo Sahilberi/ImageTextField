@@ -6,7 +6,8 @@ Using ImageTextField you can set left and right imageview in storyboard with pad
 
 # Requirements
 
-Swift 3.0.2
+Swift 3.0
+
 iOS 8.0 or later
 
 
