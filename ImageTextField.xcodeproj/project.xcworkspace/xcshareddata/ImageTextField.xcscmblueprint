@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EDEFB4BA40DA3D0FDBB5D7F0D9514B74B28E7DC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2" : 9223372036854775807,
+    "EDEFB4BA40DA3D0FDBB5D7F0D9514B74B28E7DC7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "52279A05-0C4F-4777-9853-8745B8074E9F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2" : "",
+    "EDEFB4BA40DA3D0FDBB5D7F0D9514B74B28E7DC7" : "ImageTextField\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ImageTextField",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ImageTextField.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Sahilberi\/SahilRepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sahilberi\/ImageTextField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDEFB4BA40DA3D0FDBB5D7F0D9514B74B28E7DC7"
+    }
+  ]
+}

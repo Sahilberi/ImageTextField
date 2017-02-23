@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FieldWithLeftImage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ySq-Co-GQI" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="aaaaaa" borderStyle="roundedRect" placeholder="FieldWithLeftImage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ySq-Co-GQI" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
                                 <rect key="frame" x="16" y="40" width="343" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3uR-bi-Dj4"/>
@@ -33,13 +33,12 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="fieldImage" value="icon"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="5"/>
+                                        <real key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstFieldWithLeftImageAndBottomLayer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v35-Hc-z8z" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
-                                <rect key="frame" x="16" y="135" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LeftImageAndBottomLayer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v35-Hc-z8z" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="140" width="343" height="22"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -53,22 +52,21 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FieldWithRightImage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yye-Ut-FKL" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FieldWithRightImage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yye-Ut-FKL" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
                                 <rect key="frame" x="16" y="90" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="fieldImage" value="icon"/>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isRightImage" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isRightImage" value="NO"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
-                                        <real key="value" value="4"/>
+                                        <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstFieldWithRightImageAndBottomLayer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BCK-lf-OUf" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
-                                <rect key="frame" x="16" y="173" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="RightImageAndBottomLayer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BCK-lf-OUf" customClass="ImageTextField" customModule="ImageTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="182" width="343" height="22"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -84,20 +82,26 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.71850544904285718" green="0.64313725489999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="v35-Hc-z8z" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="31B-SS-MC6"/>
                             <constraint firstItem="ySq-Co-GQI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="4lc-l4-Z8K"/>
                             <constraint firstItem="yye-Ut-FKL" firstAttribute="top" secondItem="ySq-Co-GQI" secondAttribute="bottom" constant="20" id="HIQ-oD-ElG"/>
                             <constraint firstItem="yye-Ut-FKL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="NPS-3M-TT8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ySq-Co-GQI" secondAttribute="trailing" id="Q3Y-E6-LzW"/>
                             <constraint firstItem="yye-Ut-FKL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UZc-kF-L09"/>
+                            <constraint firstItem="BCK-lf-OUf" firstAttribute="top" secondItem="v35-Hc-z8z" secondAttribute="bottom" constant="20" id="Y6V-Bi-Eps"/>
                             <constraint firstItem="ySq-Co-GQI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZKI-m6-XQl"/>
+                            <constraint firstItem="v35-Hc-z8z" firstAttribute="top" secondItem="yye-Ut-FKL" secondAttribute="bottom" constant="20" id="bcZ-UP-jO8"/>
+                            <constraint firstItem="v35-Hc-z8z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iPD-hj-RSy"/>
+                            <constraint firstItem="BCK-lf-OUf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pXy-6r-dHs"/>
+                            <constraint firstItem="BCK-lf-OUf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ybb-KB-Leg"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="663" y="-125"/>
+            <point key="canvasLocation" x="529" y="-140"/>
         </scene>
     </scenes>
     <resources>

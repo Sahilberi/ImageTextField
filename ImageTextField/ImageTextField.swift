@@ -10,12 +10,7 @@ import UIKit
 
 @IBDesignable
 class ImageTextField: UITextField {
-  
-  @IBInspectable var isRightImage: Bool = false {
-    didSet {
-      updateView()
-    }
-  }
+ 
   var textFieldBorderStyle: UITextBorderStyle = .roundedRect
   
   // Provides left padding for image
@@ -57,41 +52,30 @@ class ImageTextField: UITextField {
   }
   
   func updateView() {
-    
+
     if let image = fieldImage {
+      leftViewMode = UITextFieldViewMode.always
       let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 20, height: 20))
       imageView.image = image
       // Note: In order for your image to use the tint color, you have to select the image in the Assets.xcassets and change the "Render As" property to "Template Image".
       imageView.tintColor = color
-      
-      if isRightImage {
-        leftView = nil
-        rightViewMode = .always
-        rightView = imageView
-      } else {
-        rightView = nil
-        leftViewMode = .always
-        leftView = imageView
-      }
+      leftView = imageView
     } else {
-      leftViewMode = .never
-      rightViewMode = .never
+      leftViewMode = UITextFieldViewMode.never
       leftView = nil
-      rightView = nil
     }
-    
     // Placeholder text color
     attributedPlaceholder = NSAttributedString(string: placeholder != nil ?  placeholder! : "", attributes:[NSForegroundColorAttributeName: color])
   }
-  
+ 
   override func draw(_ rect: CGRect) {
-    
+
     let path = UIBezierPath()
     path.move(to: CGPoint(x: self.bounds.origin.x, y: self.bounds.height
       - 0.5))
     path.addLine(to: CGPoint(x: self.bounds.size.width, y: self.bounds.height
       - 0.5))
-    path.lineWidth = 1.0
+    path.lineWidth = 0.5
     self.bottomColor.setStroke()
     path.stroke()
   }
