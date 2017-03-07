@@ -11,6 +11,12 @@ bottom layer and it's borderStyle will change. if you set it clear color it will
 if you want to add image on right side you have to select the Force Right-to-Left option in semantic in interface builder.
 ![alt tag] (https://cloud.githubusercontent.com/assets/7422405/23246591/dd38df2c-f9ba-11e6-9c6c-aa0171926d62.png)
 
+# Installation
+
+Manually
+
+Clone or Download this Repo. Then simply drag the class ImageTextField.swift to your Xcode project.
+
 # Requirements
 
 Swift 3.0
