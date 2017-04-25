@@ -23,7 +23,7 @@ Clone or Download this Repo. Then simply drag the class ImageTextField.swift to 
 CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
 
 $ gem install cocoapods
-To integrate TableViewReloadAnimation into your Xcode project using CocoaPods, specify it in your Podfile:
+To integrate ImageTextField into your Xcode project using CocoaPods, specify it in your Podfile:
 
     source 'https://github.com/CocoaPods/Specs.git'
     platform :ios, '9.0'
