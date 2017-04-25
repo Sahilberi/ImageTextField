@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "ImageTextField"
-  s.version      = "0.1.0"
+  s.version      = "0.0.1"
   s.summary      = "A Designable Textfield For adding textfield leftview and rightview images in storyboard for swift 3.0"
 
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios
 
    s.ios.deployment_target = "8.0"
-  s.source       = { :git => "http://https://github.com/Sahilberi/ImageTextField/ImageTextField.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/Sahilberi/ImageTextField.git", :tag => s.version }
 
 
   s.source_files  = "Source/"
