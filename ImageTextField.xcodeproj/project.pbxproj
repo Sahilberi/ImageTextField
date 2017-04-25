@@ -48,7 +48,7 @@
 		BAB837001E5D757200FF6C2E /* ImageTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB837041E5D757200FF6C2E /* ImageTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextFieldUITests.swift; sourceTree = "<group>"; };
 		BAB837061E5D757200FF6C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAB837121E5D759300FF6C2E /* ImageTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
+		BAB837121E5D759300FF6C2E /* ImageTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageTextField.swift; path = ../ImageTextField/ImageTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +76,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA98B6E41EAF0B9200204CD6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BAB837121E5D759300FF6C2E /* ImageTextField.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		BAB836D81E5D757200FF6C2E = {
 			isa = PBXGroup;
 			children = (
+				BA98B6E41EAF0B9200204CD6 /* Source */,
 				BAB836E31E5D757200FF6C2E /* ImageTextField */,
 				BAB836F81E5D757200FF6C2E /* ImageTextFieldTests */,
 				BAB837031E5D757200FF6C2E /* ImageTextFieldUITests */,
@@ -102,7 +111,6 @@
 				BAB836E41E5D757200FF6C2E /* AppDelegate.swift */,
 				BAB836E61E5D757200FF6C2E /* ViewController.swift */,
 				BAB836E81E5D757200FF6C2E /* Main.storyboard */,
-				BAB837121E5D759300FF6C2E /* ImageTextField.swift */,
 				BAB836EB1E5D757200FF6C2E /* Assets.xcassets */,
 				BAB836ED1E5D757200FF6C2E /* LaunchScreen.storyboard */,
 				BAB836F01E5D757200FF6C2E /* Info.plist */,
@@ -509,6 +517,7 @@
 				BAB8370B1E5D757200FF6C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB8370C1E5D757200FF6C2E /* Build configuration list for PBXNativeTarget "ImageTextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				BAB8370E1E5D757200FF6C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB8370F1E5D757200FF6C2E /* Build configuration list for PBXNativeTarget "ImageTextFieldUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				BAB837111E5D757200FF6C2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
