@@ -39,7 +39,6 @@ class ImageTextField: UITextField {
       updateView()
     }
   }
-  
   @IBInspectable var bottomColor: UIColor = UIColor.clear {
     didSet {
       if bottomColor == UIColor.clear {
